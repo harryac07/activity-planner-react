@@ -6,7 +6,7 @@ import { PropTypes } from 'react'
 import { Link } from 'react-router'
 
 export const SkiDayList = ({days,filter}) => {
-	const filteredDays = (!filter || !filter.match('/powder|backcountry/'))?
+	const filteredDays = (!filter || !filter.match(/powder|backcountry/))?
 		days :
 		days.filter(day=>day[filter])
 	return(
