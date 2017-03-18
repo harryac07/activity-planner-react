@@ -47,7 +47,6 @@ export const App = createClass({
 					<AddDayForm onNewDay={this.addDay}/> :
 					<SkiDayList days={this.state.allSkiDays} filter={this.props.params.filter}/>
 			}
-				
 
 			</div>
 		)

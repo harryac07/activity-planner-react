@@ -1,13 +1,13 @@
 {
-  "name": "react-essential",
+  "name": "react-activity planner",
   "version": "1.0.0",
   "description": "A project focusing on React and related tools",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server"
   },
-  "author": "Eve Porcello",
-  "license": "MIT",
+  "author": "Haria",
+  "license": "",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-cli": "^6.18.0",
