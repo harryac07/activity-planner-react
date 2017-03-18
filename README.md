@@ -1,1 +1,4 @@
-# activity-planner-react
+# activity-planner
+
+##React JS Project
+
